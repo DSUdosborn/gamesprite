@@ -9,8 +9,8 @@ basic.forever(function () {
     basic.pause(200)
     x = pins.map(
     pinx,
-    0,
-    800,
+    1,
+    5,
     0,
     4
     )
