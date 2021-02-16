@@ -5,8 +5,6 @@ let y = 0
 basic.forever(function () {
     pinx = pins.analogReadPin(AnalogPin.P1)
     piny = pins.analogReadPin(AnalogPin.P2)
-    basic.showNumber(piny)
-    basic.pause(200)
     x = pins.map(
     pinx,
     1,
