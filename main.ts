@@ -5,19 +5,17 @@ let y = 0
 basic.forever(function () {
     pinx = pins.analogReadPin(AnalogPin.P1)
     piny = pins.analogReadPin(AnalogPin.P2)
-    basic.showNumber(piny)
-    basic.pause(500)
     x = pins.map(
     pinx,
     1,
-    826,
+    830,
     0,
     4
     )
     y = pins.map(
     piny,
-    150,
-    800,
+    1,
+    830,
     0,
     4
     )
