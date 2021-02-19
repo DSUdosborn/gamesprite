@@ -33,4 +33,15 @@ basic.forever(function () {
     }
     basic.clearScreen()
     led.plot(x, y)
+    if (pins.digitalReadPin(DigitalPin.P3) == 1) {
+        basic.clearScreen()
+        basic.showLeds(`
+            # . . . #
+            . # . # .
+            . . # . .
+            . # . # .
+            # . . . #
+            `)
+        basic.pause(500)
+    }
 })
