@@ -1,5 +1,5 @@
-let piny = 0
 let pinx = 0
+let piny = 0
 let x = 0
 let y = 0
 basic.forever(function () {
@@ -43,5 +43,6 @@ basic.forever(function () {
             # . . . #
             `)
         basic.pause(500)
+        basic.clearScreen()
     }
 })
